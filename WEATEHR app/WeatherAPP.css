@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+}
+#table{
+    display: block;
+    margin-top: 20px;
+}
+th, td{
+    border: 1px solid black;
+    padding: 5px;
+}
+#page2Coment{
+    visibility: hidden;
+}
+body{
+    background-image: url("./img/pexels-brett-sayles-1431822.jpg");
+    background-size: cover;
+}
+#partOneContainer{
+    position: absolute;
+    top: 5px;
+}
+#mainContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+label{
+    color: white;
+}
